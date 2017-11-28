@@ -6,7 +6,7 @@ import (
 
 // UserInfo .
 type UserInfo struct {
-	UID        int `xorm:"id pk autoincr"` //语义标签
+	UID        int `xorm:"id pk autoincr"`
 	UserName   string
 	DepartName string
 	CreateAt   *time.Time
