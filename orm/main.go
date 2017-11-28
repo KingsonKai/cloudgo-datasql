@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/pmlpml/golang-learning/web/Service-calculation/go-xorm-demo/service"
+	"github.com/orm/service"
 	flag "github.com/spf13/pflag"
 )
 
