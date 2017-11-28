@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/pmlpml/golang-learning/web/Service-calculation/go-xorm-demo/entities"
+	"github.com/orm/entities"
 
 	"github.com/unrolled/render"
 )
