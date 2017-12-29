@@ -12,7 +12,7 @@ sudo yum update即可。这里我要强调的是千万不要在更新内核过�
 这部分同样按照老师的博客做就可以，可以自行对用户表以及关联用户信息表内的数据<br>
 进行修改。注意如果端口设置的不是3306的话，要在之后的程序中修改端口，否则无法<br>
 正确运行程序。（老师的代码是默认3306）<br>
-
+mmmm
 #### 测试web服务：<br>
 使用 curl -d "username=ooo&departname=1"http://localhost:8080/service/userinfo <br>
 命令传输数据到网站上。<br>
